@@ -13,6 +13,7 @@ router.get('/', (req, res) => {
 		categories: categories
 	}
 
+
 	templates[selected] = sampleTemplates
 	data['preloaded'] = JSON.stringify({
 		selected: selected,
@@ -40,5 +41,17 @@ router.get('/', (req, res) => {
 
 })
 
+router.get('/landing', (req, res) => {
+	res.render('landing', null)
+})
+
+
+router.get('/profile', (req, res)=> {
+	res.render('profile', null)
+})
+
+router.get('/tables', (req, res)=> {
+	res.render('tables', null)
+})
 
 module.exports = router
