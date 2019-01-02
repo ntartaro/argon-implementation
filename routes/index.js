@@ -10,7 +10,12 @@ const categories = ['landing', 'resume', 'restaurant', 'fitness', 'realtor', 'le
 router.get('/', (req, res) => {
 	const selected = categories[0]
 	const data = {
-		categories: categories
+		categories: categories,
+		templates: [
+			{name: 'template1'},
+			{name: 'template2'},
+			{name: 'template3'}
+		]
 	}
 
 
@@ -21,24 +26,6 @@ router.get('/', (req, res) => {
 	})
 
 	res.render('index', data)
-
-	// controllers.site.get({'template.status':'live', 'template.category':selected})
-	// .then(sites => {
-	// 	templates[selected] = sites
-	// 	data['preloaded'] = JSON.stringify({
-	// 		selected: selected,
-	// 		templates: templates
-	// 	})
-	//
-	// 	res.render('index', data)
-	// })
-	// .catch(err => {
-	// 	res.json({
-	// 		confirmation: 'fail',
-	// 		message: err.message
-	// 	})
-	// })
-
 })
 
 router.get('/landing', (req, res) => {
