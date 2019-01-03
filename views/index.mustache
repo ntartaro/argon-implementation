@@ -16,16 +16,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  <!-- Argon CSS -->
   <link type="text/css" href="/css/argon.css?v=1.0.0" rel="stylesheet">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-        $(document).ready(function (){
-            $(".nav-item").click(function (){
-                $('html, body').animate({
-                    scrollTop: $("#cards-row-one").offset().top
-                }, 700);
-            });   
-        });
-</script>
+  <style>
+    .template-preview {
+      padding: 6px;
+      background: #f9f9f9;
+      border: 1px solid #ededed;
+      max-width: 160px;
+    }
+  </style>
 
 </head>
 
@@ -269,7 +267,7 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img src="/img/theme/team-4-800x800.jpg" class="rounded-circle">
+                    <img class='template-preview' src="https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500">
                   </a>
                 </div>
               </div>
@@ -301,17 +299,11 @@
               </div>
               <div class="text-center">
                 <h3>
-                  {{name}}<span class="font-weight-light">, 27</span>
+                  {{name}}
                 </h3>
                 <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bucharest, Romania
+                  <i class="ni location_pin mr-2"></i>Landing Page
                 </div>
-                <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer
-                </div>
-                {{! <div>
-                  <i class="ni education_hat mr-2"></i>University of Computer Science
-                </div> }}
                 <hr class="my-4" />
                 <p>Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.</p>
                 <a href="#" class="btn btn-sm btn-info mr-4">Show More</a>
@@ -570,6 +562,7 @@
       </footer>
     </div>
   </div>
+
   <!-- Argon Scripts -->
   <!-- Core -->
   <script src="/vendor/jquery/dist/jquery.min.js"></script>
@@ -579,6 +572,15 @@
   <script src="/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="/js/argon.js?v=1.0.0"></script>
+  <script>
+        $(document).ready(function (){
+            $(".nav-item").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#cards-row-one").offset().top
+                }, 700);
+            });   
+        });
+</script>
 </body>
 
 </html>

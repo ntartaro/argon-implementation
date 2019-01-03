@@ -12,9 +12,9 @@ router.get('/', (req, res) => {
 	const data = {
 		categories: categories,
 		templates: [
-			{name: 'template1'},
-			{name: 'template2'},
-			{name: 'template3'}
+			{name: 'Template 1'},
+			{name: 'Template 2'},
+			{name: 'Template 3'}
 		]
 	}
 
