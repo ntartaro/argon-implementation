@@ -5,6 +5,8 @@ const router = vertex.router()
 const sampleTemplates = require('../seed/templates.json')
 
 const templates = {}
+const landing = {}
+const resume = {}
 const categories = ['landing', 'resume', 'restaurant', 'fitness', 'realtor', 'lessons']
 
 router.get('/', (req, res) => {
@@ -12,17 +14,35 @@ router.get('/', (req, res) => {
 	const data = {
 		categories: categories,
 		templates: [
-			{name: 'Template 1'},
-			{name: 'Template 2'},
-			{name: 'Template 3'}
+			{name: 'templates 1'},
+			{name: 'templates 2'},
+			{name: 'templates 3'}
+		],
+		landing: [
+			{name: 'landing 1'},
+			{name: 'landing 2'},
+			{name: 'landing 3'}
+		],
+		resume: [
+			{name: 'resume 1'},
+			{name: 'resume 2'},
+			{name: 'resume 3'}
+		],
+		restaurant: [
+			{name: 'restaurant 1'},
+			{name: 'restaurant 2'},
+			{name: 'restaurant 3'}
 		]
+
 	}
 
 
 	templates[selected] = sampleTemplates
 	data['preloaded'] = JSON.stringify({
 		selected: selected,
-		templates: templates
+		templates: templates,
+		landing: landing,
+		resume: resume
 	})
 
 	res.render('index', data)

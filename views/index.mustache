@@ -262,9 +262,14 @@
     <!-- Page content -->
     <div class="container-fluid mt--7">
 
+<div id="target" style="background-color: green;">Loading...</div>
+<script id="template" type="x-tmpl-mustache">
+Hello {{ name }}!
+</script>
+
 <!-- CARD ROW ONE -->
       <div class="row" id='cards-row-one'>
-        {{#templates}}
+        {{#resume}}
         <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
           <div class="card card-profile shadow">
             <div class="row justify-content-center">
@@ -315,7 +320,7 @@
             </div>
           </div>
         </div>
-      {{/templates}}
+      {{/resume}}
       </div>
 <!-- END CARDS -->
 
@@ -577,13 +582,19 @@
   <!-- Argon JS -->
   <script src="/js/argon.js?v=1.0.0"></script>
   <script>
-        $(document).ready(function (){
-            $(".nav-item").click(function (){
-                $('html, body').animate({
-                    scrollTop: $("#cards-row-one").offset().top
-                }, 700);
-            });   
-        });
+  $(document).ready(function (){
+    $(".nav-item").click(function (){
+      console.log('clicked')
+      $('html, body').animate({
+        scrollTop: $("#cards-row-one").offset().top
+        }, 700);
+      });   
+        
+    $(".nav-item").click(function (){                  
+      $(".nav-item").css('background-color', 'white');
+      $(this).css('background-color', '#fffb50');
+      })
+  });
 </script>
 </body>
 
