@@ -17,19 +17,19 @@ router.get('/', (req, res) => {
 			{name: 'templates 3'}
 		],
 		landing: [
-			{name: 'landing 1'},
-			{name: 'landing 2'},
-			{name: 'landing 3'},
+			{name: 'landing 1', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
+			{name: 'landing 2', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
+			{name: 'landing 3', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
 		],		
 		restaurant: [
-			{name: 'restaurant 1', img: "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"},
-			{name: 'restaurant 2', img: "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"},
-			{name: 'restaurant 3', img: "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"}
+			{name: 'restaurant 1', image: 'https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500'},
+			{name: 'restaurant 2', image: 'https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500'},
+			{name: 'restaurant 3', image: 'https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500'}
 		],
 		resume: [
-			{name: 'resume 1'},
-			{name: 'resume 2'},
-			{name: 'resume 3'}
+			{name: 'resume 1', image: 'https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg'},
+			{name: 'resume 2', image: 'https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg'},
+			{name: 'resume 3', image: 'https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg'}
 		],
 		lessons: [
 			{name: 'lessons 1'},
@@ -37,9 +37,9 @@ router.get('/', (req, res) => {
 			{name: 'lessons 3'}
 		],
 		fitness: [
-			{name: 'fitness 1', img: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
-			{name: 'fitness 2', img: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
-			{name: 'fitness 3', img: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
+			{name: 'fitness 1', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
+			{name: 'fitness 2', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
+			{name: 'fitness 3', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
 			
 		],
 		realtor: [

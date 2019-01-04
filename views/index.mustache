@@ -282,7 +282,7 @@ Hello {{ name }}!
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img class='template-preview' src='{{img}}'>
+                    <img class='template-preview' src='{{image}}'>
                   </a>
                 </div>
               </div>
@@ -592,14 +592,14 @@ Hello {{ name }}!
     $(".nav-item").click(function (){
       console.log('clicked')
       $('html, body').animate({
-        scrollTop: $("#cards-row-one").offset().top
+        scrollTop: $("#cards-row-one").offset().top - 120
         }, 700);
-      });   
+    });   
         
     $(".sidebar").click(function (){                  
       $(".sidebar").css('background-color', 'white');
       $(this).css('background-color', '#f9f9f9');
-      })
+    })
   });
 </script>
 </body>
