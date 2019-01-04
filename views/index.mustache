@@ -124,31 +124,31 @@
         <!-- Navigation -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link">
+            <a class="nav-link sidebar">
               <i class="fas fa-newspaper text-primary"></i> Landing Page
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item sidebar">
             <a class="nav-link">
               <i class="fas fa-utensils text-blue"></i> Restaurant
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item sidebar">
             <a class="nav-link">
               <i class="fas fa-file text-orange"></i> Resume
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item sidebar">
             <a class="nav-link">
               <i class="fas fa-chalkboard-teacher text-yellow"></i> Lessons
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item sidebar">
             <a class="nav-link">
               <i class="fas fa-dumbbell text-red"></i> Fitness
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item sidebar">
             <a class="nav-link">
               <i class="fas fa-home text-info"></i> Realtor
             </a>
@@ -590,8 +590,8 @@ Hello {{ name }}!
         }, 700);
       });   
         
-    $(".nav-item").click(function (){                  
-      $(".nav-item").css('background-color', 'white');
+    $(".sidebar").click(function (){                  
+      $(".sidebar").css('background-color', 'white');
       $(this).css('background-color', '#fffb50');
       })
   });
