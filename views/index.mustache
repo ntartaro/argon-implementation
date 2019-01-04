@@ -27,6 +27,12 @@
       width: 160px;
             text-align: left;
     }
+    .sidebar{
+      cursor: pointer
+    }
+    .initial {
+      background-color: #f9f9f9
+    }
   </style>
 
 </head>
@@ -124,7 +130,7 @@
         <!-- Navigation -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link sidebar">
+            <a class="nav-link sidebar initial">
               <i class="fas fa-newspaper text-primary"></i> Landing Page
             </a>
           </li>
@@ -269,14 +275,14 @@ Hello {{ name }}!
 
 <!-- CARD ROW ONE -->
       <div class="row" id='cards-row-one'>
-        {{#resume}}
+        {{#fitness}}
         <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
           <div class="card card-profile shadow">
             <div class="row justify-content-center">
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img class='template-preview' src="https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500">
+                    <img class='template-preview' src='{{img}}'>
                   </a>
                 </div>
               </div>
@@ -320,7 +326,7 @@ Hello {{ name }}!
             </div>
           </div>
         </div>
-      {{/resume}}
+      {{/fitness}}
       </div>
 <!-- END CARDS -->
 
@@ -592,7 +598,7 @@ Hello {{ name }}!
         
     $(".sidebar").click(function (){                  
       $(".sidebar").css('background-color', 'white');
-      $(this).css('background-color', '#fffb50');
+      $(this).css('background-color', '#f9f9f9');
       })
   });
 </script>
