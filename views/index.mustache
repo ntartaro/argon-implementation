@@ -129,17 +129,17 @@
         </form>
         <!-- Navigation -->
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item" id="landing">
             <a class="nav-link sidebar initial">
               <i class="fas fa-newspaper text-primary"></i> Landing Page
             </a>
           </li>
-          <li class="nav-item sidebar">
+          <li class="nav-item sidebar" id="restaurant">
             <a class="nav-link">
               <i class="fas fa-utensils text-blue"></i> Restaurant
             </a>
           </li>
-          <li class="nav-item sidebar">
+          <li class="nav-item sidebar" id="resume">
             <a class="nav-link">
               <i class="fas fa-file text-orange"></i> Resume
             </a>
@@ -698,10 +698,15 @@
   <script src="/js/argon.js?v=1.0.0"></script>
   <script>
   $(document).ready(function (){
-    $(".nav-item").click(function (){
-      console.log('clicked')
+    $(".nav-item").click(function (event){
+      $("#cards-row-landing").addClass('d-none')
+      $("#cards-row-resume").addClass('d-none')
+      $("#cards-row-restaurant").addClass('d-none')
+      var newId = "#cards-row-" + event.currentTarget.id
+      $(newId).removeClass('d-none')
+
       $('html, body').animate({
-        scrollTop: $("#cards-row-one").offset().top - 120
+        scrollTop: $(newId).offset().top - 120
         }, 700);
     });   
         
@@ -714,7 +719,3 @@
 </body>
 
 </html>
-
-{{! cards-row-landing }}
-{{! cards-row-resume }}
-{{! cards-row-restaurant }}
