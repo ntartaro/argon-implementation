@@ -4,7 +4,9 @@ const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
 const router = vertex.router()
 const sampleTemplates = require('../seed/templates.json')
 
-const templates = {}
+const landing = {}
+const restaurant = {}
+const resume = {}
 const categories = ['landing', 'resume', 'restaurant', 'fitness', 'realtor', 'lessons']
 
 router.get('/', (req, res) => {
@@ -49,12 +51,13 @@ router.get('/', (req, res) => {
 		],
 
 	}
-	//>
 
-	templates[selected] = sampleTemplates
+	// templates[selected] = sampleTemplates
 	data['preloaded'] = JSON.stringify({
 		selected: selected,
-		templates: templates
+		landing: landing,
+		restaurant: restaurant,
+		resume: resume
 	})
 
 	res.render('index', data)
