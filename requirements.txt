@@ -1,0 +1,26 @@
+Use 
+- https://www.squarespace.com/templates
+- https://www.wix.com/website/templates 
+as a general guide for UI
+
+Home Page
+1. Header
+- Greeting
+- Hero Image
+- Lead text with brief explanation of value prop
+
+2. Left Sidebar
+- Top link should be called "welcome" and link to header
+- Template categories
+- Selected category should be hi-lited somehow
+- Each category should have icon
+- Bottom link should be Join with btn-success class
+
+3. Main Area
+- Show templates based on selected item from sidebar
+- Each template should have thumbnail
+
+
+4. CTA
+- Free sign up and premium signup
+- Each signup should activate overlay modal, just like https://www.turbo360.co
