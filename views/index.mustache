@@ -130,27 +130,81 @@
         </div>
       {{/templates.landing}}
       </div>
-      <!-- END CARDS -->
-        <div class="row">
-          <div class="col">
-            <div class="card bg-secondary shadow">
-              <div class="card-header border-0">
-                <h3 class="mb-0">How It Works</h3>
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio. 
+
+      <div class="row how-it-works">
+        <div class="col">
+          <div class="card bg-secondary shadow">
+            <div class="card-header border-0">
+              <h3 class="mb-0">How It Works</h3>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio. 
                 Donec ornare accumsan elit eget lobortis. Praesent ac massa ante. Nulla mollis tellus sollicitudin, iaculis neque eu, malesuada diam. Cras vel felis viverra, egestas dolor quis, ornare metus. 
                 Praesent dignissim efficitur ligula, ac elementum ante lobortis sed. Quisque placerat ipsum eu neque vestibulum gravida. Mauris vitae finibus purus. Aenean ac quam cursus, blandit eros commodo, egestas dolor. 
                 Curabitur efficitur nec turpis ut sollicitudin. 
-                </p>
-              </div>
-              <div class="card-footer">
-              </div>
+              </p>
+            </div>
+            <div class="card-footer">
             </div>
           </div>
         </div>
+      </div>
 
-      <!-- Footer -->
+      <div class="row justify-content-center signup-form">
+        <div class="col-lg-6 col-md-8">
+          <div class="card bg-secondary shadow border-0">
+            <div class="card-header bg-transparent pb-4 text-center">
+              <img class="signup-logo" src="https://storage.turbo360.co/vertex360-cms-4hujkc/vertex-logo-2.svg" class="navbar-brand-img" alt="...">
+            </div>
+            <div class="card-body px-lg-5 py-lg-4">
+              <div class="text-center text-muted mb-4">
+                <small>Sign up for free</small>
+              </div>
+              <form role="form">
+                <div class="form-group">
+                  <div class="input-group input-group-alternative mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Name" type="text">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-alternative mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Email" type="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Password" type="password">
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-12">
+                    <div class="custom-control custom-control-alternative custom-checkbox">
+                      <input class="custom-control-input" id="customCheckRegister" type="checkbox">
+                      <label class="custom-control-label" for="customCheckRegister">
+                        <span class="text-muted">I agree with the <a href="#!">Privacy Policy</a></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary mt-4">Create account</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
       <footer class="footer">
         <div class="row align-items-center justify-content-xl-between">
           <div class="col-xl-6">
@@ -178,7 +232,6 @@
       </footer>
     </div>
   </div>
-
 
   <script type="text/template" id="tpl-template-preview">
     <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
