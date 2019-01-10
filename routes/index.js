@@ -2,11 +2,8 @@
 const turbo = require('turbo360')({site_id: process.env.TURBO_APP_ID})
 const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
 const router = vertex.router()
-const sampleTemplates = require('../seed/templates.json')
+const templates = require('../seed/templates.json')
 
-const landing = {}
-const restaurant = {}
-const resume = {}
 const categories = ['landing', 'resume', 'restaurant', 'fitness', 'realtor', 'lessons']
 
 router.get('/', (req, res) => {

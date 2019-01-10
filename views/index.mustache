@@ -214,43 +214,44 @@
       Mustache.tags = ["<%", "%>"]
       var preloaded = window.__PRELOADED__
       var templates = preloaded.templates
+      console.log(templates)
       var selectedCategory = preloaded.selected
       var categories = preloaded.categories
 
       var reloadUI = function(){
         var selectedTemplates = templates[selectedCategory]
         if (selectedTemplates != null){
-          var templateHtml = ''
-          var template = $('#tpl-template-preview').html()
+          var templateHtml = ""
+          var template = $("#tpl-template-preview").html()
           selectedTemplates.forEach(function(tpl){
             templateHtml += Mustache.render(template, tpl)
           })
-          $('#templates').html(templateHtml)
+          $("#templates").html(templateHtml)
           return
         }
 
         // fetch the templates by category:
         $.ajax({
-          url: '/api/template?category=' + selectedCategory,
-          type: 'GET',
+          url: "/api/template?category=" + selectedCategory,
+          type: "GET",
           data: null,
           success:function(resp, xhr, status){
-            if (resp.confirmation != 'success'){
-              alert('OOPS: ' + resp.message)
+            if (resp.confirmation != "success"){
+              alert("OOPS: " + resp.message)
               return
             }
             templates[selectedCategory] = resp.data
             reloadUI()
           },
           fail: function(request, err){
-            alert('OOPS: ' + err.message)
+            alert("OOPS: " + err.message)
           }
         })
       }
 
       $(".sidebar").click(function(event){
-        $(".sidebar").css('background-color', 'white');
-        $(this).css('background-color', '#f9f9f9');
+        $(".sidebar").css("background-color", "white");
+        $(this).css("background-color", "#f9f9f9");
         var scrollTo = "#templates"
         if (event.target.id == "how-it-works" || event.target.id == "signup-form") {
           scrollTo = "." + event.target.id 
