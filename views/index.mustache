@@ -149,7 +149,6 @@
     </div>
     {{>footer}}
   </div>
-  
 
   <script type="text/template" id="tpl-template-preview">
     <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
@@ -249,16 +248,22 @@
         })
       }
 
+      $(".sidebar").click(function(event){
+        $(".sidebar").css('background-color', 'white');
+        $(this).css('background-color', '#f9f9f9');
+        var scrollTo = "#templates"
+        if (event.target.id == "how-it-works" || event.target.id == "signup-form") {
+          scrollTo = "." + event.target.id 
+        } 
+        $("html, body").animate({
+            scrollTop: $(scrollTo).offset().top - 120 
+            }, 700);
+      });
+
       $(".category-link").click(function(event){
         if (selectedCategory === event.target.id)
           return
         selectedCategory = event.target.id
-        $(".category-link").css('background-color', 'white');
-        $(this).css('background-color', '#f9f9f9');
-        $("html, body").animate({
-            scrollTop: $("#templates").offset().top - 120
-          }, 700);
-
         reloadUI()
       });
     })()
