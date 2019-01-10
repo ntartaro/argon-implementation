@@ -7,7 +7,7 @@ const templates = {
 	landing: [
 		{name: 'landing 1', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
 		{name: 'landing 2', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
-		{name: 'landing 3', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
+		{name: 'landing 3', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'}
 	],
 	restaurant: [
 		{name: 'restaurant 1', image: 'https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500'},
@@ -20,20 +20,19 @@ const templates = {
 		{name: 'resume 3', image: 'https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg'}
 	],
 	lessons: [
-		{name: 'lessons 1'},
-		{name: 'lessons 2'},
-		{name: 'lessons 3'}
+		{name: 'lessons 1', image: 'https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065'},
+		{name: 'lessons 2', image: 'https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065'},
+		{name: 'lessons 3', image: 'https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065'}
 	],
 	fitness: [
 		{name: 'fitness 1', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
 		{name: 'fitness 2', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
-		{name: 'fitness 3', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'},
-
+		{name: 'fitness 3', image: 'https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg'}
 	],
 	realtor: [
-		{name: 'realtor 1'},
-		{name: 'realtor 2'},
-		{name: 'realtor 3'}
+		{name: 'realtor 1', image: 'http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg'},
+		{name: 'realtor 2', image: 'http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg'},
+		{name: 'realtor 3', image: 'http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg'}
 	]
 }
 
