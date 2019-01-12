@@ -2,90 +2,235 @@
   "landing": [
     {
       "name": "landing 1",
-      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg"
+      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "landing 2",
-      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg"
+      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
+
     },
     {
       "name": "landing 3",
-      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg"
+      "image": "https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ],
 
   "restaurant": [
     {
       "name": "restaurant 1",
-      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"
+      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "restaurant 2",
-      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"
+      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "restaurant 3",
-      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500"
+      "image": "https://images.pexels.com/photos/958373/pexels-photo-958373.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=500&w=500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ],
 
   "resume": [
     {
       "name": "resume 1",
-      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg"
+      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "resume 2",
-      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg"
+      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "resume 3",
-      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg"
+      "image": "https://as1.ftcdn.net/jpg/01/45/14/56/500_F_145145670_GhRcHARwCZ67Rar8GsnIuBU4l77GZOIg.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ],
 
   "lessons": [
     {
       "name": "lessons 1",
-      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065"
+      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "lessons 2",
-      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065"
+      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "lessons 3",
-      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065"
+      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/square.jpg?1522791065",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ],
 
   "fitness": [
     {
       "name": "fitness 1",
-      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg"
+      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "fitness 2",
-      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg"
+      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "fitness 3",
-      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg"
+      "image": "https://as1.ftcdn.net/jpg/00/99/47/92/500_F_99479281_oJ0gapW7neDbLeOEhdjmP1fHr9KrDQkr.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ],
 
   "realtor": [
     {
       "name": "realtor 1",
-      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg"
+      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "realtor 2",
-      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg"
+      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     },
     {
       "name": "realtor 3",
-      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg"
+      "image": "http://www.realproeando.com/Portals/0/xBlog/uploads/2016/4/1/A-website-with-a-Realtor-domain-can-help-get-agents-noticed-so-they-can-sell-.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.",
+      "slug": "landing-template-90347a",
+      "sample_one_text": "Friends",
+      "sample_one_value": 22,
+      "sample_two_text": "Photos",
+      "sample_two_value": 10,
+      "sample_three_text": "Comments",
+      "sample_three_value": 89
     }
   ]
 }

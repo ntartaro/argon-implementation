@@ -43,16 +43,16 @@
                 <div class="col">
                   <div class="card-profile-stats d-flex justify-content-center mt-md-5">
                     <div>
-                      <span class="heading">22</span>
-                      <span class="description">Friends</span>
+                      <span class="heading">{{sample_one_value}}</span>
+                      <span class="description">{{sample_one_text}}</span>
                     </div>
                     <div>
-                      <span class="heading">10</span>
-                      <span class="description">Photos</span>
+                      <span class="heading">{{sample_two_value}}</span>
+                      <span class="description">{{sample_two_text}}</span>
                     </div>
                     <div>
-                      <span class="heading">89</span>
-                      <span class="description">Comments</span>
+                      <span class="heading">{{sample_three_value}}</span>
+                      <span class="description">{{sample_three_text}}</span>
                     </div>
                   </div>
                 </div>
@@ -65,8 +65,8 @@
                   <i class="ni location_pin mr-2"></i>Landing Page
                 </div>
                 <hr class="my-4" />
-                <p>Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.</p>
-                <a href="#" class="btn btn-sm btn-info mr-4">Show More</a>
+                <p>{{description}}</p>
+                <a href="/template/{{slug}}" class="btn btn-sm btn-info mr-4">Show More</a>
               </div>
             </div>
           </div>
@@ -171,16 +171,16 @@
             <div class="col">
               <div class="card-profile-stats d-flex justify-content-center mt-md-5">
                 <div>
-                  <span class="heading">22</span>
-                  <span class="description">Friends</span>
-                </div>
-                <div>
-                  <span class="heading">10</span>
-                  <span class="description">Photos</span>
-                </div>
-                <div>
-                  <span class="heading">89</span>
-                  <span class="description">Comments</span>
+                      <span class="heading"><% sample_one_value %></span>
+                      <span class="description"><% sample_one_text %></span>
+                    </div>
+                    <div>
+                      <span class="heading"><% sample_two_value %></span>
+                      <span class="description"><% sample_two_text %></span>
+                    </div>
+                    <div>
+                      <span class="heading"><% sample_three_value %></span>
+                      <span class="description"><% sample_three_text %></span>
                 </div>
               </div>
             </div>
@@ -193,8 +193,10 @@
               <i class="ni location_pin mr-2"></i>Landing Page
             </div>
             <hr class="my-4" />
-            <p>Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.</p>
-            <a href="#" class="btn btn-sm btn-info mr-4">Show More</a>
+            <p>
+              <% description %>
+            </p>
+            <a href="/template/<% slug %>" class="btn btn-sm btn-info mr-4">Show More</a>
           </div>
         </div>
       </div>

@@ -12,9 +12,41 @@ router.get('/', (req, res) => {
 		categories: categories,
 		templates: {
 			landing:[
-				{name: 'landing 1', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
-				{name: 'landing 2', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
-				{name: 'landing 3', image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg'},
+				{
+					name: 'landing 1', 
+					image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg', 
+					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.',
+					"slug": "landing-template-90347a",       
+					"sample_one_text": "Friends",
+					"sample_one_value": 22,
+					"sample_two_text": "Photos",
+					"sample_two_value": 10,
+					"sample_three_text": "Comments",
+					"sample_three_value": 89
+				},
+				{					
+					name: 'landing 1', 
+					image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg', 
+					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.',      
+					"slug": "landing-template-90347a",
+					"sample_one_text": "Friends",
+					"sample_one_value": 22,
+					"sample_two_text": "Photos",
+					"sample_two_value": 10,
+					"sample_three_text": "Comments",
+					"sample_three_value": 89
+				},
+				{					
+					name: 'landing 1', 
+					image: 'https://t3.ftcdn.net/jpg/02/18/15/36/500_F_218153661_z6JUvkVhMazhDhtQ61N7ZAl6hSrO4eVt.jpg', 
+					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nulla at neque bibendum aliquet. Maecenas ut nisl in est pulvinar auctor elementum id odio.',       
+					"slug": "landing-template-90347a",
+					"sample_one_text": "Friends",
+					"sample_one_value": 22,
+					"sample_two_text": "Photos",
+					"sample_two_value": 10,
+					"sample_three_text": "Comments",
+					"sample_three_value": 89},
 			]
 		}
 	}
